@@ -17,7 +17,7 @@ MonoBehaviour:
   description: "A module where you have to press the correct arrow 5 times based on
     which arrows are flashing.\n\nHTML: https://ktane.timwi.de/HTML/Teal%20Arrows.html\nPDF:
     https://ktane.timwi.de/PDF/Teal%20Arrows.pdf\n\nTeal Arrows (tealArrowsModule)
-    v1.0.0\nModule and Idea by Pruz\r\nMod Implemented by eXish\nTwitch Plays supported"
-  version: 1.0.0
+    v1.0.1\nModule and Idea by Pruz\r\nMod Implemented by eXish\nTwitch Plays supported"
+  version: 1.0.1
   outputFolder: build
   previewImage: {fileID: 2800000, guid: b635f5645b5aab64da967c80a675c5de, type: 3}

@@ -167,14 +167,13 @@ public class TealArrowsScript : MonoBehaviour {
         for (int i = 0; i < 100; i++)
         {
             int rand1 = UnityEngine.Random.Range(0, 10);
-            int rand2 = UnityEngine.Random.Range(0, 10);
             if (i < 50)
             {
-                numDisplay.GetComponent<TextMesh>().text = rand1 + "" + rand2;
+                numDisplay.GetComponent<TextMesh>().text = rand1 + "";
             }
             else
             {
-                numDisplay.GetComponent<TextMesh>().text = "G" + rand2;
+                numDisplay.GetComponent<TextMesh>().text = "G" + rand1;
             }
             yield return new WaitForSeconds(0.025f);
         }
