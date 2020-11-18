@@ -1393,7 +1393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ModuleType: tealArrowsModule
   ModuleDisplayName: Teal Arrows
-  RequiresTimerVisibility: 0
+  RequiresTimerVisibility: 1
 --- !u!114 &114299437252002108
 MonoBehaviour:
   m_ObjectHideFlags: 1
