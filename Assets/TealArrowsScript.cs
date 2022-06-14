@@ -214,13 +214,13 @@ public class TealArrowsScript : MonoBehaviour {
 
     IEnumerator TwitchHandleForcedSolve()
     {
-        while (!lightson) { yield return true; yield return new WaitForSeconds(0.1f); };
+        while (!lightson) { yield return true; };
         int start = presses;
         for (int i = start; i < 5; i++)
         {
             buttons[Array.IndexOf(arrowNames, correctButton)].OnInteract();
             yield return new WaitForSeconds(0.1f);
         }
-        while (isanimating) { yield return true; yield return new WaitForSeconds(0.1f); };
+        while (isanimating) { yield return true; };
     }
 }
