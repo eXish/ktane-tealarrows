@@ -83,7 +83,7 @@ public class TealArrowsScript : MonoBehaviour {
 
     void PressButton(KMSelectable pressed)
     {
-        if (moduleSolved != true && isanimating != true && lightson == true)
+        if (moduleSolved != true && lightson == true)
         {
             pressed.AddInteractionPunch(0.25f);
             audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, pressed.transform);
